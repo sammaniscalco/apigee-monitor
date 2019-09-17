@@ -1,0 +1,37 @@
+{
+  "Components": {
+    "Component": [
+      {
+        "id": "ms",
+        "name": "edge-management-server",
+        "port": 8080,
+        "description": "holds the pieces together. The Management Server is the endpoint for Edge Management API requests. It also interacts with the Edge UI."
+      },
+      {
+        "id": "qis",
+        "name": "edge-qpid-server",
+        "port": 8083,
+        "description": "manages queuing system for analytics data."
+      },
+      {
+        "id": "r",
+        "name": "edge-router",
+        "port": 8081,
+        "description": "handles all incoming API traffic from a load balancer, determines the organization and environments for the API proxy that handles the request, balances requests across available Message Processors, and then dispatches the request"
+      },
+      {
+        "id": "ps",
+        "name": "edge-postgres-server",
+        "port": 8084,
+        "description": "manages the PostgreSQL analytics database."
+      },
+
+      {
+        "id": "mp",
+        "name": "edge-message-processor",
+        "port": 8082,
+        "description": "processes API requests. The Message Processor evaluates an incoming request, executes any Apigee policies, and calls the back-end systems and other systems to retrieve data. Once those responses have been received, the Message Processor formats a response and returns it to the client."
+      }
+    ]
+  }
+}

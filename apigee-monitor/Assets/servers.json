@@ -1,0 +1,53 @@
+{
+  "Servers": {
+    "Server": [
+      {
+        "id": "1-domain",
+        "url": "https://1.domain.com",
+        "components": [
+          "ms"
+        ]
+      },
+      {
+        "id": "2-domain",
+        "url": "https://2.domain.com",
+        "components": [
+          "r",
+          "mp"
+        ]
+      },
+      {
+        "id": "3-domain",
+        "url": "https://3.domain.com",
+        "components": [
+          "r",
+          "mp"
+        ]
+      },
+      {
+        "id": "4-domain",
+        "url": "https://4.domain.com",
+        "components": [
+          "r",
+          "mp"
+        ]
+      },
+      {
+        "id": "5-domain",
+        "url": "https://5.domain.com",
+        "components": [
+          "qis",
+          "ps"
+        ]
+      },
+      {
+        "id": "6-domain",
+        "url": "https://6.domain.com",
+        "components": [
+          "qis",
+          "ps"
+        ]
+      }
+    ]
+  }
+}
